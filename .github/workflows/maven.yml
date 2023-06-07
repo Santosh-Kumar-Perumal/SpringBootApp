@@ -9,6 +9,7 @@
 name: Project CI/CD Flow
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
