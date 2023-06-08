@@ -12,7 +12,7 @@ public class SantoshartifactApplication {
 
 	@GetMapping("/path")
 	public String welcome() {
-		return "Welcome Santosh Kumar";
+		return "Welcome Santosh";
 	}
 
 	public static void main(String[] args) {
